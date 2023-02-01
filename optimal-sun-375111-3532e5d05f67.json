@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "optimal-sun-375111",
+  "private_key_id": "3532e5d05f671c3e1ed7d93dc6dbf325fa918ba7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlf5GSorKb0ZpW\n0sjBn8YFF9yGNqxAfRTh11JHbZmciDIrN28FFbqw8k3vu20q+nPRFJ3sjzzIPrWI\nl9ZTm7TINo4mJH44/yEBt3c2IFS+p1dAuVIo/gslui2m0NXTvC336h8QwSnLY53K\nFDkVDrhs7OWvQOzLjQdFXucnbD4vjwJo7FMFP0IoNjI6gpEu+qgrOO10a9GCZKVE\nZORdkIQlPTEc8/6hHs0wFT2f1ULbBd3m4FHkSKJl9OtBCez6rA9L5vXLGEX0Z9Rg\nQDWAg1dAMiLK1WMoKk4quTaFM2Lk3jH056VBkj3svptcaVPzQrrwpHVb9IporSMc\n2LKw5iaTAgMBAAECggEACLEsYCDltzgY6olA4vB8YqyqL10lE1Y0HcT2z/oV3iix\nub2iPfo6NWx1SOCmPFaltKQIF9xpoW3v7d9OVfao7LJVmkU55fUSbiBhlVJj00q+\n58EnxvdZkGa88ZCpoJjZJtweVsHyJXVoQFiZZt5FXD7Gs5INGz0uqtEdhnqM37vZ\nBPS/wk0C5HLLMTlkqEHMypho69hPJAgPRWqJuKQS8SHFTCsbP2CPbl9cV6KNroEL\nHa+AmqlWDOg+/EtkVuXTLsUiu52CZfwovaNUYKle99LLgaMRpHzQaGQDDXfMifdR\nCCJ6ERCQR0WuQpdiugEdo+DE6VKsEYiKa44v62jxYQKBgQDzY4dnt/C14KOijGQP\n4V4YW+NvOM+3XF4TiqqLaE3VTLRllzYeGPA1qafxtEQTH/obBwP2lsBCRfkE4KWQ\nXvgn2Lp6TxTH3e28UQfUXm2fdGXVGlBXS7WcUi3BDt56GSoaIB0qw2k9DiQZOlPS\ngyetc+pdi3mAOYefFLDcIn+ZoQKBgQDxY8mKTDaVV61GrOg3ZBUWiHnl9gnFcGIN\nxA+pMkTot9Xp1VrtUo3XHX2arpK3z/EsmWyP4pq2N9i1Es/vh46hIsxXpzylPt2l\n8YtVUzQPlDKu5uYaQowm1QvixV26DEOfs0nC9WOIKohnmWWgX25fFdvBEVgoH7ds\nVcnd66HbswKBgFr9qaCP9tC4I9TgMYRyV9A5giSRk65UPOOHYszteLO2knaselH0\nNtGJFL1bDFwuBz3VeJjWsRfVuwwkxCDeMF4NO2IAcJ9sC7XsgUXW65rCVFPAG6sX\nJdVEL9DOM0RoZgIQYXccSRrHT52S3cWEvO+utz6zpv/WAirp/FjAGP4hAoGBAJZf\nbVuD4rTh64WNjROEe0aQOi+xN6ERQ2QD8SWbtSWr78w9JumUddu9+VL00V1EYp8/\n7EsuBObin1Mdpv82WPm0bctk2Piv0u/fKsc6j8Hsti4SlOFi91/xc/gOrzaJEU9Z\nJugWaayXomW3P4HKMT12pnD9VweXynHod1qRwUDVAoGAJeHqsf02Nb6kBrEyT0Ge\nagZFjYVE1joQRRvUoVOvxLlSfPysXNHZX54v5WL3dA6Axobh24YF2uYzDlKc77d3\nMj4LLIbs59wgMvflkP8QWvOVM3COpPnf2OiyXTrNI8WkPlp55WS/nNY4LLPllrA8\nT1uSphjnwL49oam6nFN85Bw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terrafrom@optimal-sun-375111.iam.gserviceaccount.com",
+  "client_id": "102732206658269190895",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terrafrom%40optimal-sun-375111.iam.gserviceaccount.com"
+}
