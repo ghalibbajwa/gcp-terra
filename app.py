@@ -9,6 +9,7 @@ ip=socket.gethostbyname(socket.gethostname())
 def report():
     res=request.json
     cmd='slogr -c '+ res['reciever'] + ' '+res['port']+ ' ' +res['n_packets'] +' '+ res['intervel']+' '+res['w_time'] +' '+res['dscp'] + ' '+ip+' '  +res['p_size']+' '+ res['t_name'] +' ./' + res['c_ip']
+    print(cmd)
     os.system(cmd)
     return jsonify(cmd)
 

@@ -6,6 +6,6 @@ WantedBy=multi-user.target
 Type=simple
 User=root
 PermissionsStartOnly=true
-ExecStart= slogr -s 8009
+ExecStart= /usr/bin/slogr -s 8009
 Restart=on-failure
 TimeoutSec=600 
