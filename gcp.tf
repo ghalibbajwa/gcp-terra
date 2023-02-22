@@ -82,7 +82,7 @@ resource "random_id" "instance_id" {
 # Create VM #1
 resource "google_compute_instance" "vm_instance_public" {
   name = "${var.app_name}-controller"
-  machine_type = "e2-micro"
+  machine_type = "e2-medium"
   zone = var.gcp_zone_1
   tags = ["ssh","http","web","foo"]
   
