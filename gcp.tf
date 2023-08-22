@@ -79,35 +79,35 @@ resource "google_compute_firewall" "rules" {
 resource "random_id" "instance_id" {
   byte_length = 4
 }
-# Create VM #1
-resource "google_compute_instance" "vm_instance_public" {
-  name = "${var.app_name}-controller"
-  machine_type = "e2-medium"
-  zone = var.gcp_zone_1
-  tags = ["ssh","http","web","foo"]
+# # Create VM #1
+# resource "google_compute_instance" "vm_instance_public" {
+#   name = "${var.app_name}-controller"
+#   machine_type = "e2-medium"
+#   zone = var.gcp_zone_1
+#   tags = ["ssh","http","web","foo"]
   
-  boot_disk {
-    initialize_params {
-      image = "ubuntu-os-cloud/ubuntu-2204-jammy-v20221206"
-    }
-  }
- metadata_startup_script = "curl -fsSL get.docker.com -o get-docker.sh; sudo sh get-docker.sh;"
+#   boot_disk {
+#     initialize_params {
+#       image = "ubuntu-os-cloud/ubuntu-2204-jammy-v20221206"
+#     }
+#   }
+#  metadata_startup_script = "curl -fsSL get.docker.com -o get-docker.sh; sudo sh get-docker.sh;"
 
-  network_interface {
-    network = google_compute_network.vpc.name
-    subnetwork = google_compute_subnetwork.public_subnet_1.name
+#   network_interface {
+#     network = google_compute_network.vpc.name
+#     subnetwork = google_compute_subnetwork.public_subnet_1.name
     
   
-  access_config { }
-  }
+#   access_config { }
+#   }
 
 
-}
+# }
 
 # Create VM #2
 resource "google_compute_instance" "vm_instance_public2" {
   count   = "${var.node_count}"
-  name = "${var.app_name}-vm-agent-${count.index}"
+  name = "${var.all_zones["${count.index}"]}"
   machine_type = "e2-micro"
   zone = "${var.all_zones["${count.index}"]}"
   tags = ["ssh","http","web","foo"]
